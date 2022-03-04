@@ -1,0 +1,15 @@
+/* My Classes */
+
+/* Utility */
+
+.ms_bor_rad{
+    border-radius: 20px;
+}
+
+.filterinvert{
+    filter:invert(1)
+}
+
+.ms_bg_madegr{
+    background-color: rgb(60, 80, 110);
+}

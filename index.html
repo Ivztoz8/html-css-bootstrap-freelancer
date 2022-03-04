@@ -5,68 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>BOOTSTRAP</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/img/bootstrap.svg" type="image/x-icon">
+    <title>BOOTSTRAP FREELANCER</title>
 </head>
 <body>
-  <div class="container-sm">
-    <div class="row d-flex bg-dark text-light align-baseline">
-      <div class="col fs-6 fw-bold text-uppercase text-center align-bottom">
-        <p></p> 
-        start bootstrap
+
+<!-- TODO BootstrapBar -->
+  <div class="container-fluid">
+    <div class="row d-flex bg-dark text-light  py-1">
+      <div class="col-9">
+        <p class="fs-4 fw-bold text-uppercase align-self-center pt-2">start bootstrap</p> 
       </div>
-      <div class="col">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-          <div class="container-fluid d-flex flex-row-reverse">
-            <button class="navbar-toggler p-1 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="col-1">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
+            <div class="collapse navbar-collapse me-auto" id="navbarTogglerDemo01">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active d-flex flex-row-reverse" aria-current="page" href="#">Portfolio</a>
+                  <a class="nav-link active d-flex flex-row-reverse me-2" aria-current="page" href="#">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active d-flex flex-row-reverse" aria-current="page" href="#">About</a>
+                  <a class="nav-link active d-flex flex-row-reverse me-2" aria-current="page" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active d-flex flex-row-reverse" aria-current="page" href="#">Contact</a>
+                  <a class="nav-link active d-flex flex-row-reverse me-2" aria-current="page" href="#">Contact</a>
                 </li>
               </ul>
             </div>
-          </div>
         </nav>
       </div>
     </div>
-    <div class="row d-flex bg-success">
-      <div class="column">
-        <div class="col">
-          <div class="card border-success mb-3">
-            <img src="./assets/img/avatar.svg" class="card-img-top border-success bg-success img-fluid p-5" alt="Bootstrap avatar">
-            <div class="card-body bg-success ">
-              <h3 class="card-title text-light text-center text-uppercase fw-bold display-4">start bootstrap</h3>
-              <p class="card-text text-light text-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
-                </svg>
-              </p>
-              <p class="card-text text-light text-center text-uppercase">
-                graphicartist - web designer -illustrator
-              </p>
-            </div>
-          </div>
-        </div>
-        
-    </div>
   </div>
+
+<!-- TODO Start Bootstrap Section -->
+  <div class="container-fluid">
+    <div class="row d-flex bg-success flex-column justify-content-center align-items-center">
+        <div class="col-12 col-md-5">
+          <img src="./assets/img/avatar.svg" class="bg-success img-fluid px-5 pb-4" alt="Bootstrap avatar">
+        </div>
+        <div class="col-12">
+          <h3 class="card-title text-light text-center text-uppercase fw-bold display-4">start bootstrap</h3>
+          <p class="card-text text-light text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+            </svg>
+          </p>
+          <p class="card-text text-light text-center text-uppercase pb-4">
+            graphicartist - web designer - illustrator
+          </p>
+        </div>
+    </div>
+  </div> 
+
+<!-- TODO Portfolio Section -->
+  <div class="container-fluid d-flex">
     <div class="row d-flex bg-light">
-      <h2 class=" text-uppercase text-center p-5 fw-bold"> Portfolio</h2>
-      <p class="card-text text-center">
+      <h2 class=" text-uppercase text-center mt-5 fw-bold"> Portfolio</h2>
+      <div class="col-12 text-center mb-3">
         <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
         </svg>
@@ -76,16 +80,36 @@
         <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
         </svg>
-      </p>
-      <img src="./assets/img/cabin.png" class="p-4 rounded" alt="Cabin Picture">
-      <img src="./assets/img/cake.png" class="p-4 rounded" alt="Cacke Picture">
-      <img src="./assets/img/circus.png" class="p-4 rounded" alt="Circus Picture">
-      <img src="./assets/img/game.png" class="p-4 rounded" alt="Game Picture">
-      <img src="./assets/img/safe.png" class="p-4 rounded" alt="Safe Picture">
-      <img src="./assets/img/submarine.png" class="p-4 rounded mb-3" alt="Submarine Picture">
+      </div>
+      <div class="d-flex row-12 align-items-start flex-wrap">
+        <div class="d-flex col-12 col-md-6 col-lg-4">
+          <img src="./assets/img/cabin.png" class="mb-4 p-2 ms_bor_rad img-fluid" alt="Cabin Picture">
+        </div>
+        <div class="d-flex col-12 col-md-6 col-lg-4">
+           <img src="./assets/img/cake.png" class="mb-4 p-2 ms_bor_rad img-fluid" alt="Cacke Picture">
+        </div>
+        <div class="d-flex col-12 col-md-6 col-lg-4">
+          <img src="./assets/img/circus.png" class="mb-4 p-2 ms_bor_rad img-fluid" alt="Circus Picture">
+        </div>
+        <div class="d-flex col-12 col-md-6 col-lg-4">
+          <img src="./assets/img/game.png" class="mb-4 p-2 ms_bor_rad img-fluid" alt="Game Picture">
+        </div>
+        <div class="d-flex col-12 col-md-6 col-lg-4">
+          <img src="./assets/img/safe.png" class="mb-4 p-2 ms_bor_rad img-fluid" alt="Safe Picture">
+        </div>
+        <div class="d-flex col-12 col-md-6 col-lg-4">
+          <img src="./assets/img/submarine.png" class="p-2 ms_bor_rad mb-3 img-fluid" alt="Submarine Picture">
+        </div>
+        </div>
+      </div>
     </div>
-    <div class="row d-flex bg-success">
-      <p class="card-text text-center text-light">
+  
+<!-- TODO Freelancer Section -->  
+  <div class="container-fluid bg-success">
+    <div class="row-12 d-flex flex-column">
+      <h2 class="text-uppercase text-center text-white mt-5 fw-bold">About</h2>
+    <div class="row-12">
+      <div class="text-center text-light">
         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="100" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
         </svg>
@@ -95,24 +119,114 @@
         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="100" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
         </svg>
-      </p>
-      <p class="card-text text-center text-light mb-3 fw-bold">
-       Freelance is a free bootstrap theme created by Start Bootstrap.
-       The download includes the complete source files including HTML, 
-       CSS, and JavaScript as well as optional LESS stylesheets
-       for easy customization.
-      </p>
-      <p class="card-text text-center text-light mb-3 fw-bold">
-        Whether you're a student looking to showcase your work, a professional
-        looking to attract clients, or a graphic artist looking to share your
-        projects, this template is the perfect starting point!
-       </p>
-       <button type="button" class="btn btn-success btn-sm border-light ">
-         Downloa
-         d</button>
+      </div>
+     </div>
     </div>
-  </div>  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <div class="row-12">
+      <p class="text-center text-light mb-3 fw-bold">
+        Freelance is a free bootstrap theme created by Start Bootstrap.
+        The download includes the complete source files including HTML, 
+        CSS, and JavaScript as well as optional LESS stylesheets
+        for easy customization.
+       </p>
+       <p class="text-center text-light mb-3 fw-bold">
+         Whether you're a student looking to showcase your work, a professional
+         looking to attract clients, or a graphic artist looking to share your
+         projects, this template is the perfect starting point!
+        </p>
+    </div>
+    <div class="row-12 d-flex">
+      <div class="col pb-4 d-flex justify-content-center text-white">
+        <button type="button" class="btn btn-success border-light">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="filterinvert" viewBox="0 0 512 512">
+            <path d="M480 352h-133.5l-45.25 45.25C289.2 409.3 273.1 416 256 416s-33.16-6.656-45.25-18.75L165.5 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96C512 366.3 497.7 352 480 352zM432 456c-13.2 0-24-10.8-24-24c0-13.2 10.8-24 24-24s24 10.8 24 24C456 445.2 445.2 456 432 456zM233.4 374.6C239.6 380.9 247.8 384 256 384s16.38-3.125 22.62-9.375l128-128c12.49-12.5 12.49-32.75 0-45.25c-12.5-12.5-32.76-12.5-45.25 0L288 274.8V32c0-17.67-14.33-32-32-32C238.3 0 224 14.33 224 32v242.8L150.6 201.4c-12.49-12.5-32.75-12.5-45.25 0c-12.49 12.5-12.49 32.75 0 45.25L233.4 374.6z"/></svg>
+            Download</button>
+      </div>
+    </div>
+  </div>
 
-      </body>
+<!-- TODO Contact Section --> 
+<div class="container-fluid">
+  <div class="row-12">
+    <h2 class="text-uppercase text-center mt-5 fw-bold">Contact Me</h2>
+  </div>
+  <div class="row-12">
+    <div class="text-center">
+      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="100" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="50" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="100" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+      </svg>
+    </div>
+  </div>
+  <div class="row-12 ">
+    <form class="d-flex flex-column justify-content-center align-items-center">
+      <div class="col-9 mb-3">
+        <input class="form-control" type="text" placeholder="Name">
+      </div>
+      <div class="col-9 mb-3 ">
+        <input type="email" class="form-control" placeholder="Email Address" id="exampleInputEmail1">
+      </div>
+      <div class="col-9 mb-3">
+        <input class="form-control" type="text" placeholder="Phone number">
+      </div>
+      <div class="col-9 mb-3">
+        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+      </div>
+     <div class="col-9 mb-5">
+      <button type="submit" class="btn btn-success">Send</button>
+     </div>
+    </form>
+  </div>
+</div> 
+
+<!-- TODO Location Section --> 
+<div class="container-fluid ms_bg_madegr">
+  <div class="row-12 row-md-4 d-flex ">
+    <div class="col-12 text-center text-uppercase text-white mt-4 flex-column">
+      Location
+    </div>
+    <div class="col-12 text-center text-white mb-4">
+      2215 John Daniel Clark, MO 54243
+    </div>
+  </div>
+  <div class="row-12 row-md-4 d-flex flex-column">
+    <div class="col-12 text-center text-uppercase text-white mt-2">
+      around the web
+    </div>
+    <div class="col-12 text-center text-uppercase text-white mt-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook m-2" viewBox="0 0 16 16">
+        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google m-2" viewBox="0 0 16 16">
+        <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter m-2" viewBox="0 0 16 16">
+        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin m-2" viewBox="0 0 16 16">
+        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+      </svg>
+    </div>
+  </div>
+  <div class="row-12 row-md-4 d-flex flex-column pb-3">
+    <div class="col-12 text-center text-uppercase text-white mt-4">
+      about freelancer
+    </div>
+    <div class="col-12 text-center text-white mt-2">
+      Freelancer is a free to use, open source Bootstrap theme created by <span class="text-success ">Start Bootstrap</span>.
+    </div>
+  </div>
+</div>
+<div class="container-fluid align-items-center bg-dark">
+  <div class="row text-center justify-content-center text-white py-5">
+   Copyright &#169; Your Website 2019
+  </div>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
 </html>
